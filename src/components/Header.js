@@ -1,0 +1,72 @@
+import { icons } from '@/constants';
+import { Icon } from '@iconify/react';
+import Image from 'next/image';
+import Link from 'next/link';
+
+export default function Header() {
+  return (
+    <header>
+      <div className="flex gap-3">
+        <Image
+          src="/image/shahryarsv.jpg"
+          width={200}
+          height={200}
+          className="w-28 h-fit rounded-lg"
+          alt="Shahryar firoozi"
+        />
+        <div className="flex flex-col gap-3">
+          <h1 className="text-4xl font-bold text-gray-900">Shahryar Firoozi</h1>
+          <h2 className="text-lg text-gray-600 mb-4">Front-End Developer</h2>
+          <div className="flex flex-col gap-3 text-sm text-gray-700">
+            <div className="flex items-center gap-3">
+              <Link
+                href="mailto:shahryardev99@gmail.com"
+                className="flex items-center gap-1.5 hover:text-blue-600 text-xs print:text-[10px] font-bold"
+              >
+                <Icon icon={icons.email} className="w-4 h-4 text-blue-600" />
+                <span>shahryardev99@gmail.com</span>
+              </Link>
+              <Link
+                href="https://linkedin.com/in/shahryar-firoozi-7022bb361"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-1.5 hover:text-blue-600 text-xs print:text-[10px] font-bold"
+              >
+                <Icon icon={icons.linkedin} className="w-4 h-4 text-blue-600" />
+                <span>linkedin.com</span>
+              </Link>
+              <Link
+                href="https://github.com/shahryar78f"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-1.5 hover:text-blue-600 text-xs print:text-[10px] font-bold"
+              >
+                <Icon icon={icons.github} className="w-4 h-4 text-blue-600" />
+                <span>github.com</span>
+              </Link>
+              <Link
+                href="https://t.me/shahryardev"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-1.5 hover:text-blue-600 text-xs print:text-[10px] font-bold"
+              >
+                <Icon icon={icons.telegram} className="w-4 h-4 text-blue-600" />
+                <span>Telegram</span>
+              </Link>
+            </div>
+            <div className="flex items-center gap-3">
+              <div className="flex items-center gap-1.5 hover:text-blue-600 cursor-default text-xs print:text-[10px] font-bold">
+                <Icon icon={icons.phone} className="w-4 h-4 text-blue-600" />
+                <span>+98 918 538 4065</span>
+              </div>
+              <div className="flex items-center gap-1.5 hover:text-blue-600 cursor-default text-xs print:text-[10px] font-bold">
+                <Icon icon={icons.location} className="w-4 h-4 text-blue-600" />
+                <span>Tehran / Sanandaj</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+  );
+}
