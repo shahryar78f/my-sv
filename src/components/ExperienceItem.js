@@ -1,5 +1,6 @@
-import { icons } from '@/constant';
-import { Icon } from '@iconify/react';
+import { Icon } from "@iconify/react";
+import { icons } from "../constant";
+import Link from "next/link";
 
 export default function ExperienceItem({ title, company, date, bullets, index }) {
   return (
@@ -22,7 +23,7 @@ export default function ExperienceItem({ title, company, date, bullets, index })
         <div className="flex items-start justify-between">
           <h4 className="font-bold text-gray-900">{title}</h4>
         </div>
-        <p className="text-gray-600 text-sm ">{company}</p>
+        <Link href='https://codenight.ir' className="text-gray-600 text-sm ">{company}</Link>
         <div className="flex items-center gap-1">
           <Icon icon={icons.calendar} className="w-4 h-4" />
           <p className="text-gray-500 text-xs print:text-[10px]">{date}</p>
