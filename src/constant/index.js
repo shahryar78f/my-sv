@@ -31,7 +31,7 @@ export const icons = {
 
 export const summary = {
   summaryEN:
-    '    Frontend Developer with 2 years of hands-on experience in JavaScript, HTML, CSS, Tailwind CSS, React, and Next.js I started my journey through an intensive coding bootcamp and later collaborated with the Saftian team on a project basis, working on two e-commerce applications. Passionate about building high-performance, scalable applications with clean code and well-crafted UI/UX. Experienced in leveraging AI tools to improve development speed and code quality.',
+    'Frontend Developer with 2 years of hands-on experience in JavaScript, TypeScript, React, and Next.js. Started my journey through an intensive coding bootcamp and later collaborated on real-world, large-scale web applications, including e-commerce platforms and admin panels. Passionate about building high-performance, scalable applications with clean code and well-crafted UI/UX. Experienced in leveraging AI tools to improve development speed and code quality.',
 };
 
 export const experience = [
