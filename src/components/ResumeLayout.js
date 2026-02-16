@@ -1,5 +1,6 @@
 import ExperienceSection from './ExperienceSection';
 import ProjectsSection from './ProjectsSection';
+import Sidebar from './Sidebar';
 import SummarySection from './SummarySection';
 
 function ResumeLayout() {
@@ -10,6 +11,7 @@ function ResumeLayout() {
         <ExperienceSection />
         <ProjectsSection />
       </div>
+      <Sidebar />
     </div>
   );
 }
