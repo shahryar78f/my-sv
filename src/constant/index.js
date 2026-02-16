@@ -89,3 +89,54 @@ export const projects = [
     tech: 'React, Next.js, React-Query, Tailwind, ZOD',
   },
 ];
+
+export const achievements = [
+  { id: 1, achievement: 'Clean code & best practices', icon: icons.star },
+  {
+    id: 2,
+    achievement:
+      'Reviewed and refactored the project as a component-oriented approach, reducing potential errors and bugs, while significantly improving my ability to learn and adopt new concepts.',
+    icon: icons.code,
+  },
+  {
+    id: 3,
+    achievement:
+      'Leveraged TypeScript for strong type safety, enabling early detection and resolution of issues during development even with minor backend changes.',
+    icon: icons.typescript,
+  },
+  {
+    id: 4,
+    achievement:
+      'Significantly improved problem-solving skills through hands-on development and debugging challenges.',
+    icon: icons.lamp,
+  },
+];
+
+export const skills = [
+  { name: 'HTML', icon: icons.html, id: 1 },
+  { name: 'CSS', icon: icons.css, id: 2 },
+  { name: 'JavaScript', icon: icons.javascript, id: 3 },
+  { name: 'TypeScript', icon: icons.typescript2, id: 4 },
+  { name: 'React', icon: icons.react, id: 5 },
+  { name: 'Next.js', icon: icons.nextjs, id: 6 },
+  { name: 'React Query', icon: icons.react_query, id: 7 },
+  { name: 'Tailwind CSS', icon: icons.tailwind, id: 8 },
+  { name: 'REST APIs', icon: icons.api, id: 12 },
+  { name: 'Redux Toolkit', icon: icons.redux, id: 13 },
+  { name: 'Responsive Design', icon: icons.responsive, id: 14 },
+];
+
+export const languages = [
+  {
+    id: 1,
+    title: 'English',
+  },
+  {
+    id: 2,
+    title: 'Persian',
+  },
+  {
+    id: 3,
+    title: 'Kurdish',
+  },
+];
