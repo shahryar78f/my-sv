@@ -51,3 +51,41 @@ export const experience = [
     ],
   },
 ];
+
+[
+  {
+    id: 1,
+    title: 'English',
+    reading: 'Good',
+    writing: 'Good',
+    speaking: 'Weak',
+    listening: 'Relatively Good',
+  },
+];
+
+export const projects = [
+  {
+    id: 2,
+    name: 'Modinast',
+    demo: 'https://modinast.com/',
+    description:
+      'I worked on developing various sections of an e-commerce web application built with Next.js 15 My responsibilities included implementing parts of the admin panel, the client dashboard (user profile, order management, and addresses), product details pages, mega menu, and informational pages such as Contact Us, About Us, and FAQ. In this project, I used React Query, Tailwind CSS, TypeScript, and Zod for data validation. My primary focus was on data management, API integration, form implementation, and improving overall user experience. This project significantly strengthened my skills in React Query, TypeScript, working with forms, tables, modals, UI design, and building clean, reusable components.',
+    tech: 'React, Next.js, TypeScript, ZOD, React-Query, Tailwind',
+  },
+  {
+    id: 1,
+    name: 'Optisan',
+    demo: 'https://optisan.ir/',
+    description:
+      'I worked on developing a wholesale eyewear web application built with Next.js 14 (Pages Router). The project utilized Redux, React Query, Tailwind CSS, TypeScript, and Material UI, with data validation handled using class-validator. My responsibilities included developing a messaging system for direct communication with customers, featuring advanced filtering and staff messaging capabilities. I also implemented a Roles & Permissions system to control user access to products, and worked on the settings section, including vendor creation and management. This project provided valuable experience in team collaboration, reading and extending an existing codebase, and implementing scalable, maintainable features.',
+    tech: 'React, Next.js, TypeScript, Redux-Toolkit, MUI, React-Query, Tailwind, Chart.js',
+  },
+  {
+    id: 3,
+    name: 'torino',
+    demo: 'https://github.com/shahryar78f/torino-travel.git',
+    description:
+      'Torino is a modern travel booking platform built with Next.js 14 that allows users to search, filter, and book domestic and international tours with ease. The platform features secure authentication, a booking management system, advanced tour filtering, and a user-friendly interface designed to deliver an excellent user experience. Torino is fast, scalable, and SEO-optimized, with CSR, SSG, and SSR implemented appropriately based on page requirements.',
+    tech: 'React, Next.js, React-Query, Tailwind, ZOD',
+  },
+];
