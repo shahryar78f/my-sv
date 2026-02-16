@@ -8,7 +8,7 @@ export default function Header() {
     <header>
       <div className="flex gap-3">
         <Image
-          src="/image/shahryarsv.jpg"
+          src="/image/shahryar.jpg"
           width={200}
           height={200}
           className="w-28 h-fit rounded-lg"
