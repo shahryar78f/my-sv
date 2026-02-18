@@ -40,7 +40,7 @@ export const experience = [
     priority: 1,
     title: 'Front-End Developer',
     company: 'Codenight',
-    date: 'Jan 2024 - Present',
+    date: 'May 2025 - Present',
     bullets: [
       'Contributed to large-scale web applications, working on both client-facing pages and complex admin panels',
       'Built high-performance, responsive user interfaces using React, Next.js, Material UI, and Tailwind CSS',
